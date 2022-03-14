@@ -24,10 +24,22 @@ body {
     font-size: 16px;
 }
 
+.result {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 3px;
+}
+
+
+
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .item {
@@ -53,15 +65,19 @@ select {
     width: 100%;
 }
 
-#food{
+#result{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
 }
 
-#food > div {
-    flex-basis: calc(50% - 10px); 
+td> table {
+    flex-basis: calc(20% - 10px); 
+}
+
+h3 > #empty {
+    border-style: no-border;
 }
 
 /* Tablet/Desktop overrides */

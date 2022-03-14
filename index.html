@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- first step to a responsive site -->
-    <title>Food filter</title>
+    <title>NYC Standardized Test Scores</title>
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -26,76 +26,237 @@
 <body>
     <!-- YOUR CONTENT GOES HERE -->
     <div class="container">
-        <h1>Grocery shopping</h1>
+        <h1>NYC Test Results for Children Grades 3-8</h1>
         <p>Use the dropdown to filter the items</p>
         <div>
             <select class="filter">
-                    <option value="item">Filter...</option>
-                    <option value="fruit">Fruits</option>
-                    <option value="vegetable">Vegetable</option>
-                    <option value="meat">Meat</option>
+                    <option value="summary">Filter...</option>
+                    <option value="twenty-thirteen">2013</option>
+                    <option value="twenty-fourteen">2014</option>
+                 
                 </select>
         </div>
-        <section id="food">
-            <div class="item fruit active">
-                <img src="img/apples.jpg" />
-                <h3>Apples</h3>
-            </div>
+        <table id="result">
+            <th  class="result year twenty-thirteen twenty-fourteen twenty-fifteen twenty-sixteen twenty-seventeen twenty-eighteen twenty-nineteen     summary item">
+                <h3>Year</h3>
+            
+        </Th>
+    <th>
+            <th class="result always year twenty-thirteen item ">
+                <h3>2013</h3>
+            </th>
+            <th class="result year twenty-fourteen item ">
+                <h3>2014</h3>
+            </th>
+            <th class="result year twenty-fifteen item ">
+                <h3>2015</h3>
+            </th>
+            <th class="result year twenty-sixteen item ">
+                <h3>2016</h3>
+            </th>
+            <th class="result year twenty-seventeen item ">
+                <h3>2017</h3>
+            </th>
+            <th class="result year twenty-eighteen item ">
+                <h3>2018</h3>
+            </th>
+            <th class="empty result year twenty-nineteen item ">
+                <h3>2019</h3>
+            </th>
+            <th class="empty result year summary item active    ">
+                <h3>2013-2019</h3>
+            
+            
+        </tr>
+           </table>
 
-            <div class="item fruit active">
-                <img src="img/bananas.jpg" />
-                <h3>Bananas</h3>
-            </div>
+           <table id="result">
+           <tr>
+               <th class="result twenty-thirteen"> Ethnicity </th>
+               <th class="result"> % Level 1 </th>
+               <th class="result"> % Level 2 </th>
+               <th class="result"> % Level 3 </th>
+               <th class="result"> % Level 4 </th>
+           </tr>
+           <tr class="twenty-thirteen asian  Level1 Level2 Level3 Level4 item ">
+            <td class=" result twenty-thirteen">
+                <h3>Asian</h3>
+            </td>
+           
+            <td class="result twenty-thirteen ">
+                <h3> 18.3% </h3>
+            </td>
+            <td class="result twenty-thirteen  ">
+                <h3> 33.9% </h3>
+            </td>
+            <td class="result twenty-thirteen ">
+                <h3> 30.7% </h3>
+            </td>
+            <td class="result twenty-thirteen  ">
+                <h3> 17.1% </h3>
+            </td>
+            </tr>
 
-            <div class="item vegetable active">
-                <img src="img/carrots.jpg" />
-                <h3>Carrots</h3>
-            </div>
+            <tr>
+            <td class="black result  twenty-thirteen Level1 Level2 Level3 Level4 item ">
+                <h3>Black</h3>
+            </td>
+            
+            <td class="result   twenty-thirteen   ">
+                <h3> 45.3% </h3>
+            </td>
+            <td class="result   twenty-thirteen   ">
+                <h3> 38.4% </h3>
+            </td>
+            <td class="result   twenty-thirteen  ">
+                <h3> 13.3% </h3>
+            </td>
+            <td class="result   twenty-thirteen  ">
+                <h3> 3.1% </h3>
+            </td>
+                </tr>
+                <tr>
+                <td class=" result  twenty-thirteen Level1 Level2 Level3 Level4 item ">
+                    <h3>Hispanic</h3>
+                </td>
+            
+            
+                <td class="result   Level1 twenty-thirteen   ">
+                    <h3> 44.6% </h3>
+                </td>
+                <td class="result   Level2 twenty-thirteen   ">
+                    <h3> 38.8% </h3>
+                </td>
+                <td class="result   Level3 twenty-thirteen  ">
+                    <h3> 13.6% </h3>
+                </td>
+                <td class="result   Level4 twenty-thirteen  ">
+                    <h3> 3.0% </h3>
+                </td>
+                    </tr>
+                    <tr>
+                    <td class=" result  twenty-thirteen Level1 Level2 Level3 Level4 item ">
+                        <h3>White</h3>
+                  
+                    </tr>
+                    <tr>
+                     <td class="result twenty-thirteen      ">
+                        <h3> 18.6% </h3>
+                     </td>
+                    <td class="result year  Level2 twenty-thirteen      ">
+                        <h3> 34.6% </h3>
+                    </td>
+                    <td class="result year  Level3 twenty-thirteen     ">
+                        <h3> 30.4% </h3>
+                    </td>
+                    <td class="result year  Level4 twenty-thirteen     ">
+                        <h3> 16.4% </h3>
+                    </td>
+                    <tr>  
+                    <td class=" result  twenty-thirteen Level1 Level2 Level3 Level4     ">
+                        
+                            <h3>All Students</h3>
+                        </td>
+                 
+                    <td class="result year  Level1 twenty-thirteen      ">
+                        <h3> 36.4% </h3>
+                    </td>
+                    <td class="result year  Level2 twenty-thirteen      ">
+                        <h3> 37.2% </h3>
+                    </td>
+                    <td class="result year  Level3 twenty-thirteen     ">
+                        <h3> 19.0% </h3>
+                    </td>
+                    <td class="result year  Level4 twenty-thirteen     ">
+                        <h3> 7.4% </h3>
+                    </td>
+                    </tr>
+                        
+                        <div class="asian result  twenty-fourteen Level1 Level2 Level3 Level4 item    ">
+                            <h3>Asian</h3>
+                     
+                        <div class="result year  Level1 twenty-fourteen  item    ">
+                            <h3> 18.0% </h3>
+                        </div>
+                        <div class="result year  Level2 twenty-fourteen  item    ">
+                            <h3> 32.8% </h3>
+                        </div>
+                        <div class="result year  Level3  twenty-fourteen item    ">
+                            <h3> 31.0% </h3>
+                        </div>
+                        <div class="result year  Level4 twenty-fourteen item    ">
+                            <h3> 18.1% </h3>
+                        </div>
+                     
+                        <div class="result year  Level1 twenty-fourteen  item    ">
+                            <h3> 43.5% </h3>
+                        </div>
+                        <div class="result year  Level2 twenty-fourteen  item    ">
+                            <h3> 38.4% </h3>
+                        </div>
+                        <div class="result year  Level3  twenty-fourteen item    ">
+                            <h3> 14.4% </h3>
+                        </div>
+                        <div class="result year  Level4 twenty-fourteen item    ">
+                            <h3> 3.7% </h3>
+                        </div>
+                        <div class="asian result  twenty-fourteen Level1 Level2 Level3 Level4 item    ">
+                            <h3>Hispanic</h3>
+                        </div>
+                      
+                        <div class="result year  Level1 twenty-fourteen  item    ">
+                            <h3> 42.7% </h3>
+                        </div>
+                        <div class="result year  Level2 twenty-fourteen  item    ">
+                            <h3> 39.0% </h3>
+                        </div>
+                        <div class="result year  Level3  twenty-fourteen item    ">
+                            <h3> 14.7% </h3>
+                        </div>
+                        <div class="result year  Level4 twenty-fourteen item    ">
+                            <h3> 3.5% </h3>
+                        </div>
+                        <div class="asian result  twenty-fourteen Level1 Level2 Level3 Level4 item    ">
+                            <h3>White</h3>
+                        </div>
+                      
+                        </div>
+                        <div class="result year  Level1 twenty-fourteen  item    ">
+                            <h3> 17.5% </h3>
+                        </div>
+                        <div class="result year  Level2 twenty-fourteen  item    ">
+                            <h3> 33.1% </h3>
+                        </div>
+                        <div class="result year  Level3  twenty-fourteen item    ">
+                            <h3> 31.3% </h3>
+                        </div>
+                        <div class="result year  Level4 twenty-fourteen item    ">
+                            <h3> 18.1% </h3>
+                        </div>
 
-            <div class="item fruit actie">
-                <img src="img/cherries.jpg" />
-                <h3>Cherries</h3>
-            </div>
+                        <div class="asian result  twenty-fourteen Level1 Level2 Level3 Level4 item    ">
+                            <h3>All Students</h3>
+                        </div>
+                     
+                        <div class="result year  Level1 twenty-fourteen  item    ">
+                            <h3> 34.7% </h3>
+                        </div>
+                        <div class="result year  Level2 twenty-fourteen  item    ">
+                            <h3> 36.8% </h3>
+                        </div>
+                        <div class="result year  Level3  twenty-fourteen item    ">
+                            <h3> 20.1% </h3>
+                        </div>
+                        <div class="result year  Level4 twenty-fourteen item    ">
+                            <h3> 8.4% </h3>
+                        </div>
+                        </table>
+            
 
-            <div class="item fruit active">
-                <img src="img/cucumber.jpg" />
-                <h3>Cucumber</h3>
-            </div>
 
-            <div class="item vegetable active">
-                <img src="img/onions.jpg" />
-                <h3>Onions</h3>
-            </div>
 
-            <div class="item vegetables active">
-                <img src="img/peas.jpg" />
-                <h3>Peas</h3>
-            </div>
 
-            <div class="item vegetable active">
-                <img src="img/peppers.jpg" />
-                <h3>Peppers</h3>
-            </div>
-
-            <div class="item meat active">
-                <img src="img/steak.jpg" />
-                <h3>Steak</h3>
-            </div>
-
-            <div class="item fruit active">
-                <img src="img/tangerine.jpg" />
-                <h3>Tangerine</h3>
-            </div>
-
-            <div class="item fruit vegetable active">
-                <img src="img/tomatoes.jpg" />
-                <h3>Tomatoes</h3>
-            </div>
-
-            <div class="item fruit active">
-                <img src="img/watermelon.jpg" />
-                <h3>Watermelon</h3>
-            </div>
+            
         </section>
     </div>
 
