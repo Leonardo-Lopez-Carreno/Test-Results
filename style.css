@@ -47,7 +47,7 @@ body {
 }
 
 .item.active {
-    display: block;
+    display: table-row;
 }
 
 
