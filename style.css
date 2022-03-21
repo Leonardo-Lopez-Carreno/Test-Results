@@ -25,6 +25,19 @@ body {
     background-color: lightgreen;
 }
 
+figcaption {
+    color: gray;
+    
+}
+
+img {
+    max-width: 70%;
+    max-height: 70%;
+    box-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .result {
     border-style: solid;
     border-width: 1px;
